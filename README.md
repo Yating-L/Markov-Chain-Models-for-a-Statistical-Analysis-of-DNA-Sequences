@@ -41,15 +41,11 @@
 
   ./a.out -min 6 -max 6 -deszscore -order 4 all_seq.txt > m4_deszscore.txt
 
-3. Verify the results by RMES
+3. Files
+  Input sequence file: all_seq.txt
+  Result files: My results are in folder results/myresults
+  The results of m1 to m4 model from RMES are in folder results/rmes
+  By comparing my results with Rmes results, the overrepresented and underrepresented word lists are the same and their z-scores are very close. There are some slightly different, because I skipped alphabet other than a, t, c, g.
 
-My results are in folder results/myresults
-The results of m1 to m4 model from RMES are in folder results/rmes
-
-By comparing my results with Rmes results, the overrepresented and underrepresented word lists are the same and their z-scores are very close. There are some slightly different, because I skipped alphabet other than a, t, c, g.
-
-
-
-
-Reference: 
-Schbath, S., Prum, B., &amp; de Turckheim, E. (1995). Exceptional motifs in different Markov chain models for a statistical analysis of DNA sequences. Journal of Computational Biology, 2(3), 417-437.
+Reference:
+  Schbath, S., Prum, B., &amp; de Turckheim, E. (1995). Exceptional motifs in different Markov chain models for a statistical analysis of DNA sequences. Journal of Computational Biology, 2(3), 417-437.
