@@ -24,8 +24,11 @@
 3. Run program
 
   Compile: gcc counting.c
+  
   Usage: ./a.out -min X -max Y [-descseq|-ascseq|-desctot|-asctot|-desclength|-asclength|-ascoe|-desoe|-asczscore|-deszscore] filename [other filenames]
+  
   Example: Run program for word length = 6, M1 to M4 model
+  
   gcc counting.c
 
   ./a.out -min 6 -max 6 -asczscore -order 1 all_seq.txt > m1_asczscore.txt
@@ -47,8 +50,11 @@
 3. Files
 
   Input sequence file: all_seq.txt
+  
   Result files: My results are in folder results/myresults
+  
   The results of m1 to m4 model from RMES are in folder results/rmes
+  
   By comparing my results with Rmes results, the overrepresented and underrepresented word lists are the same and their z-scores are very close. There are some slightly different, because I skipped alphabet other than a, t, c, g.
 
 Reference:
